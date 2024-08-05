@@ -10,7 +10,6 @@ https://github.com/googlemaps/google-maps-services-python
 run 'pip install -U googlemaps' prior to running associated scripts
 
 ***API Key*** First created July 24th, 2024, will run out October 22, 2024
-AIzaSyCCC-jl0fP7Hyp4jZCdRtcCzWHHq7cDT7k
 To create your own key: Must enable Google Maps API in google developer console.
 
 Reformatted using black.
@@ -21,7 +20,7 @@ import numpy as np
 
 # possibly filter by number of ratings? holdback data
 # with and without signed distance clustering
-gmap = googlemaps.Client(key="AIzaSyCCC-jl0fP7Hyp4jZCdRtcCzWHHq7cDT7k")
+gmap = googlemaps.Client(key={API KEY HERE})
 
 
 def collect_hotels_along_highway(
